@@ -486,6 +486,52 @@
 <!-- /Section: Custom Color Palette -->
 <hr class="mt-4 mb-5">
 
+<!--Section: Example -->
+<section id="default-value">
+
+  <!--Title-->
+  <h2 class="section-heading mb-4">
+    Changing default value
+  </h2>
+
+  <!--Section: Code-->
+  <section>
+
+    <mdbsnippet data-editor="false">
+
+      <code data-lang="html" data-name="HTML">
+
+        <mdb-wysiwyg></mdb-wysiwyg>
+
+      </code>
+
+      <code data-lang="js" data-name="TS">
+        import {Component} from '@angular/core';
+        import {OverwriteDefaultWYSIWYGValue} from 'mdb-wysiwyg';
+
+        OverwriteDefaultWYSIWYGValue('New WYSIWYG value');
+
+        @Component({
+          selector: 'app-root',
+          templateUrl: './app.component.html',
+          styleUrls: ['./app.component.scss']
+        })
+        export class AppComponent {
+
+        }
+      </code>
+
+    </mdbsnippet>
+
+  </section>
+  <!--Section: Code-->
+
+
+</section>
+<!-- /Section: Example -->
+
+<hr class="mt-4 mb-5">
+
 <section id="installation">
 
   <!--Title-->
